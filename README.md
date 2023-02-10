@@ -82,11 +82,32 @@ $ cp /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc .magicrc
 $ cd ../netgen
 $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 ```
+Checking if magic works
+![mag_test](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Check_magic_plus_commands.png)<br /><br />
+Checking if xschem works
+![xschem_test](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/xschem_check.JPG)<br /><br />
+Checking if netgen works
+![netgen_test](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/netgen_run_command.JPG)<br /><br />
+Checking if ngspice works
+![spice_test](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/ngspice_run_command.JPG)<br /><br />
 
 
+### Creating inverter schematic using xschem
+An initial schematic is made by placing components from the open_pdk library<br />
+The required changes to the properties of the device can be made here and will automatically reflect in the layout
+![xshem_inv](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/inverter_sch.JPG)<br /><br />
+Convert the schematic to a symbol
+![xshem_sym](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/inverter_sym.JPG)<br /><br />
+Using the symbol, we can create an independent test bench to simulate the circuit
+![xshem_tb](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/inverter_tb_sh.JPG)<br /><br />
+
+The circuit can be simulated in ngspice. *make sure to disable .subckt in the simulation tab for the netlist generated for the sim*
+![xschem_sim](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/inverter_with_pwl_input.JPG)
+
+![xschem_sim](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/magic_nfet_parameter_change.JPG)
 
 
-
+![xschem_sim](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/layout_vs_schematic_netgen_result.JPG)
 
 
 
