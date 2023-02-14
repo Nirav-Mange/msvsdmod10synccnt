@@ -108,8 +108,11 @@ Convert the schematic to a symbol
 Using the symbol, we can create an independent test bench to simulate the circuit
 ![xshem_tb](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week0/inverter_tb_sch.JPG)<br /><br />
 
-The circuit can be simulated in ngspice. *make sure to disable .subckt in the simulation tab for the netlist generated for the sim*
+The circuit can be simulated in ngspice. 
 ![xschem_sim](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week0/inverter_with_pwl_input.JPG)
+![ngspice_sim](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week0/prelayout_simulation.JPG)
+![ngspice_sim](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week0/prelayout_transient_analysis_plot.JPG)
+![ngspice_sim]()
 ### Creating layout in magic
 When creating a new directory for layout using magic make sure you have .magicrc and sky130 related files in that folder you can use the below command to copy the files
 ```
