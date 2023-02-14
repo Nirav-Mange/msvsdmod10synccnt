@@ -83,12 +83,19 @@ $ cd ../netgen
 $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
 ```
 Checking if magic works
+
 ![mag_test](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week0/Check_magic_plus_commands.png)<br /><br />
+
 Checking if xschem works
+
 ![xschem_test](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week0/xschem_check.JPG)<br /><br />
+
 Checking if netgen works
+
 ![netgen_test](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week0/netgen_run_command.JPG)<br /><br />
+
 Checking if ngspice works
+
 ![spice_test](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week0/ngspice_run_command.JPG)<br /><br />
 
 
