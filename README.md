@@ -118,7 +118,7 @@ When creating a new directory for layout using magic make sure you have .magicrc
 ```
 cp /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc .magicrc
 ```
-![magic_sim](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/magic_nfet_parameter_change.JPG)
+--->![magic_sim](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/magic_nfet_parameter_change.JPG)
 ![magic_sim](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week0/Layout%20using%20magic.JPG)
 
 After making the layout you need to save this file so Now, go to File --> save and select autowrite. Go to the command window and type the following commands:
