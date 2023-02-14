@@ -169,7 +169,7 @@ ext2spice cthresh 0 rthresh 0
 ext2spice
 ```
 
-### ALIGN Post-layout characterization
+## ALIGN Post-layout characterization
 The procedure is same as what we did after magic we need to take the .spice file generated from ALIGN layout paste it in our testbench spice file
 
 After successfully merging the file run below command
@@ -180,7 +180,7 @@ You will get the following results
 ![ALIGN_tool](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week0/post_align_layout_characterisation.JPG)
 ![ALIGN_tool](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week0/post_align_layout_transient.JPG)
 
-### Pre-layout characterization of Fn using xchem and ngspice
+## Pre-layout characterization of Fn using xchem and ngspice
 1. Enroll in VSD custom layout course
 2. do the pre layout and post layout simulation
 
