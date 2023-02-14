@@ -180,7 +180,9 @@ You will get the following results
 ![ALIGN_tool](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week0/post_align_layout_characterisation.JPG)
 ![ALIGN_tool](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week0/post_align_layout_transient.JPG)
 
----->![netgen_sim](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/layout_vs_schematic_netgen_result.JPG)
+### Pre-layout characterization of Fn using xchem and ngspice
+1. Enroll in VSD custom layout course
+2. do the pre layout and post layout simulation
 
 
 
