@@ -240,7 +240,7 @@ ext2spice
 
 Once the spice file generated we need to copy the netlist into testbench netlist
 
-* * Common errors seen while doing the above task* *
+* * Common errors seen while doing the above task
 1. too many .subckt instantiated (Sol: Please only keep one subckt in the netlist)
 2. conflicting end statement(Sol: we need to have only one .end statement at the end of the netlist)
 
@@ -272,7 +272,7 @@ python3 ../bin/schematic2layout.py (your .spice file name here) -p ../pdks/SKY13
 
 ```
 
-You might encounter such as give below
+You might encounter error as shown below
 
 #### Error 1
 
