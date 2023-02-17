@@ -191,7 +191,7 @@ In Week1 there were notably two tasks as shown below
 $$ F_n = \overline{(B + D) \cdot (A + C) + (E \cdot F)}  $$
 
 ![Fn_equation](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week1/Fn_circuit_diagram.JPG)
-(* * The above image was taken from VSD custom Layout course Section 6 Video 25 * *)
+(* *The above image was taken from VSD custom Layout course Section 6 Video 25* *)
  ### Creating Fn circuit in xschem
 Above circuit as a guide, you need to build this circuit in xschem using * *SKY130 pdks* * as shown in the below figure
 
