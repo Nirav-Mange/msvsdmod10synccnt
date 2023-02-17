@@ -188,7 +188,7 @@ In Week1 there were notably two tasks as shown below
 1. Enroll in VSD custom layout course
 2. do the pre layout and post layout simulation of Fn Function
 
-F_n = \overline{(B + D) \cdot (A + C) + (E \cdot F)}
+$$ F_n = \overline{(B + D) \cdot (A + C) + (E \cdot F)}  $$
 
 ![Fn_equation](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week1/Fn_circuit_diagram.JPG)
 (* * The above image was taken from VSD custom Layout course Section 6 Video 25 )
