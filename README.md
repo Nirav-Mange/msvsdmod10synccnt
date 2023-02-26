@@ -313,7 +313,7 @@ Successful run will result in following plot:
 ![ALIGN_layout_simulation](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week1/Fn_circuit_post_ALIGN_layout_simulation1.JPG)
 ![ALIGN_layout_simulation](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week1/Fn_circuit_post_ALIGN_layout_simulation2.JPG)
 
-#Week 2
+# Week 2
 
 In Week 2 I had to do was install the OpenFASOC tool. To do this I followed this repo for installation (https://github.com/rakshit-23/OpenFASOC).
 
