@@ -313,8 +313,62 @@ Successful run will result in following plot:
 ![ALIGN_layout_simulation](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week1/Fn_circuit_post_ALIGN_layout_simulation1.JPG)
 ![ALIGN_layout_simulation](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week1/Fn_circuit_post_ALIGN_layout_simulation2.JPG)
 
+#Week 2
+
+In Week 2 I had to do was install the OpenFASOC tool. To do this I followed this repo for installation (https://github.com/rakshit-23/OpenFASOC).
+
+OpenFASoC is a project focused on automated analog generation from user specification to GDSII with fully open-sourced tools. It is led by a team of researchers at the University of Michigan and is inspired from FASoC which sits on proprietary software.
+
+The tool is comprised of analog and mixed-signal circuit generators, which automatically create a physical design based on user specifications.
+
+# OpenFASoC flow for temperature sensor generation
+
+To configure circuit specifications, modify the test.json specfile in the generators/temp-sense-gen/ folder.
+
+To run the default generator, cd into openfasoc/generators/temp-sense-gen/ and execute the following command:
+```
+make sky130hd_temp
+
+````
+
+The default circuit’s physical design generation can be divided into three parts:
+
+1. Verilog generation
+
+2. RTL-to-GDS flow (OpenROAD)
+
+3. Post-layout verification (DRC and LVS)
+
+### Verilog generation
+
+![Openfasoc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%202/Verilog_generation.JPG)
+
+### Floorplan report
+The floorplan for the physical design is generated with OpenROAD, which requires a description of the power delivery network in pdn.cfg.
+
+The floorplan final power report is shown below:
+![Openfasoc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%202/Floorplan_final_report.JPG)
+
+### Placement
+
+Placement takes place after the floorplan is ready and has two phases: global placement and detailed placement. The output of this phase will have all instances placed in their corresponding voltage domain, ready for routing.
+
+![Openfasoc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%202/global_place_report.JPG)
+
+![Openfasoc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%202/detailed_place_report.JPG)
+
+### Routing
+
+Routing is also divided into two phases: global routing and detailed routing. 
 
 
+![Openfasoc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%202/global_power_report.JPG)
+
+![Openfasoc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%202/finish_power_report.JPG)
+
+## Final Layout
+
+![Openfasoc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%202/Final_layout.JPG)
 
 
 
