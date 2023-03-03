@@ -385,7 +385,7 @@ In this week nwe created the analog part from this project repo (https://github.
 
 ![ringosc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%203/ringosc_ALIGN_layout_simulation.JPG)
 
-Further need more resources to learn how to create 
+Further need more resources(examples/documentation) to learn how to create verilog HDL files
 
 
 
