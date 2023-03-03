@@ -371,8 +371,22 @@ Routing is also divided into two phases: global routing and detailed routing.
 ![Openfasoc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%202/Final_layout.JPG)
 
 
-# Week4
-Custom task according to the project
+# Week 3
+
+In this week nwe created the analog part from this project repo (https://github.com/syedimaduddin/4-bit_Asynchronous_Up_Counter_using_Mixed-Signal) we made the ring oscillator, did prelayout and post-layout simulation using ALIGN to create the layout 
+
+![ringosc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%203/ringosc_schematic.JPG)
+
+![ringosc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%203/ringosc_tb.JPG)
+
+![ringosc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%203/ringosc_simulation.JPG)
+
+![ringosc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%203/ringosc_ALIGN_layout.JPG)
+
+![ringosc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%203/ringosc_ALIGN_layout_simulation.JPG)
+
+Further need more resources to learn how to create 
+
 
 
 
