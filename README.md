@@ -387,8 +387,20 @@ In this week nwe created the analog part from this project repo (https://github.
 
 Further need more resources(examples/documentation) to learn how to create verilog HDL files
 
+# Week 4
+
+In this week we created one bit adc, from repo mentioned in week 3. 
+
+![onebitadc]([https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%203/ringosc_ALIGN_layout_simulation.JPG](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%204/onebitadc_schematic1.JPG))
 
 
+![onebitadc]([https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%203/ringosc_ALIGN_layout_simulation.JPG](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%204/onebitadc_tb1.JPG))
+
+![onebitadc]([https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%203/ringosc_ALIGN_layout_simulation.JPG](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%204/onebitadc_simulation1.JPG))
+
+![onebitadc]([https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%203/ringosc_ALIGN_layout_simulation.JPG](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%204/onebitadc_ALIGN_layout.JPG))
+
+Got stuck in post layout simulation. Have interview next week need to do preparation.
 
 
 
