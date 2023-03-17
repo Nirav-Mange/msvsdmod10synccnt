@@ -403,7 +403,21 @@ In this week we created one bit adc, from repo mentioned in week 3.
 Got stuck in post layout simulation. Have interview next week need to do preparation.
 
 
+# Week 5
 
+I had to do the openfasoc after creating the verilog files but openfasoc gave the problem at creating the floor plan
+
+![onebitadc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%205/schematic_ring_adc_block.JPG)
+
+
+![onebitadc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%205/simulation_ring_adc_block.JPG)
+
+![onebitadc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%205/ringosc_verilog.JPG)
+
+![onebitadc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%205/adc_verilog.JPG)
+
+
+![onebitadc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%205/floorplan_error.JPG)
 
 
 
