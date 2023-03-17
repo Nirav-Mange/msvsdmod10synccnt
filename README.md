@@ -416,7 +416,7 @@ I had to do the openfasoc after creating the verilog files but openfasoc gave th
 
 ![onebitadc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%205/adc_verilog.JPG)
 
-
+Error while running the openfasoc on the analog block consisting of the ADC and ring oscillator
 ![onebitadc](https://github.com/Nirav-Mange/msvsdmod10synccnt/blob/main/Week%205/floorplan_error.JPG)
 
 
